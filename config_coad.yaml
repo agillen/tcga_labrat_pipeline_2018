@@ -1,0 +1,28 @@
+# config for TCGA APA pipeline #
+ 
+SIZES:
+  "ref/hg38.sizes"
+
+KEY:
+  "ref/gdc-user-token.2017-11-30T00_06_49.965Z.txt"
+
+SALMON:
+  "/vol3/home/gillena/build/Salmon-0.9.1_linux_x86_64/bin/salmon"
+
+SALMON_IDX:
+  "ref/transcripts.hg38.idx"
+
+DAPARS:
+  "/vol3/home/gillena/build/dapars/src/DaPars_main.py"
+
+DAPARS_IDX:
+  "ref/hg38.extracted3UTR.bed"
+
+DAPARS_CFG:
+  "ref/dapars.config"
+  
+TCGA_DICT:
+  "ref/coad_dict.tsv"
+
+DIR:
+  "COAD"
